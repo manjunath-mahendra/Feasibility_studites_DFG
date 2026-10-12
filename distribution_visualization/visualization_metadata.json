@@ -1,0 +1,199 @@
+{
+  "methodology": "Per fold, preprocessing, PCA and UMAP were fitted on real training data only. Each synthetic dataset was transformed using those unchanged fitted objects. Plots are separate.",
+  "target_usage": "diagnosis excluded from fitting and used only to color points",
+  "class_colors": {
+    "1": "#1f77b4",
+    "2": "#ff7f0e",
+    "3": "#2ca02c"
+  },
+  "marker": "circle for all points",
+  "plot_makeup": "No titles or grids. Legends are shown only on real-data plots.",
+  "axis_policy": "equal x/y span and identical limits across real and all models within each fold and method",
+  "folds": {
+    "fold_01": {
+      "real_rows": 104,
+      "models": [
+        "xconvgen",
+        "ctgan",
+        "ctabgan",
+        "cart",
+        "tabddpm",
+        "tabdiff",
+        "dpctgan",
+        "dpgan"
+      ],
+      "pca_explained_variance_ratio": [
+        0.10618960985120068,
+        0.08496254421478404
+      ],
+      "pca_limits": [
+        [
+          -6.10927792233133,
+          15.317717546868892
+        ],
+        [
+          -10.037504702274672,
+          11.38949076692555
+        ]
+      ],
+      "umap_limits": [
+        [
+          -6.283850116729736,
+          -0.09026678085327111
+        ],
+        [
+          2.8036814498901363,
+          8.997264785766601
+        ]
+      ]
+    },
+    "fold_02": {
+      "real_rows": 104,
+      "models": [
+        "xconvgen",
+        "ctgan",
+        "ctabgan",
+        "cart",
+        "tabddpm",
+        "tabdiff",
+        "dpctgan",
+        "dpgan"
+      ],
+      "pca_explained_variance_ratio": [
+        0.09944786775220922,
+        0.08271694339229302
+      ],
+      "pca_limits": [
+        [
+          -8.129759678517258,
+          13.176765069695092
+        ],
+        [
+          -8.59314574212004,
+          12.71337900609231
+        ]
+      ],
+      "umap_limits": [
+        [
+          -1.2712592983245852,
+          4.890789499282837
+        ],
+        [
+          13.372520217895508,
+          19.53456901550293
+        ]
+      ]
+    },
+    "fold_03": {
+      "real_rows": 104,
+      "models": [
+        "xconvgen",
+        "ctgan",
+        "ctabgan",
+        "cart",
+        "tabddpm",
+        "tabdiff",
+        "dpctgan",
+        "dpgan"
+      ],
+      "pca_explained_variance_ratio": [
+        0.10403953183241112,
+        0.08320654453129307
+      ],
+      "pca_limits": [
+        [
+          -5.386494995042956,
+          16.65672773720078
+        ],
+        [
+          -10.594524100254826,
+          11.448698631988908
+        ]
+      ],
+      "umap_limits": [
+        [
+          -12.384469499588013,
+          -6.434761533737182
+        ],
+        [
+          3.935250768661499,
+          9.88495873451233
+        ]
+      ]
+    },
+    "fold_04": {
+      "real_rows": 104,
+      "models": [
+        "xconvgen",
+        "ctgan",
+        "ctabgan",
+        "cart",
+        "tabddpm",
+        "tabdiff",
+        "dpctgan",
+        "dpgan"
+      ],
+      "pca_explained_variance_ratio": [
+        0.09562765245902242,
+        0.08025722473093294
+      ],
+      "pca_limits": [
+        [
+          -5.700429609603862,
+          17.38432020524835
+        ],
+        [
+          -12.21661489204344,
+          10.868134922808773
+        ]
+      ],
+      "umap_limits": [
+        [
+          3.402577438354492,
+          9.672817192077638
+        ],
+        [
+          -17.340489826202393,
+          -11.070250072479247
+        ]
+      ]
+    },
+    "fold_05": {
+      "real_rows": 104,
+      "models": [
+        "xconvgen",
+        "ctgan",
+        "ctabgan",
+        "cart",
+        "tabddpm",
+        "tabdiff",
+        "dpctgan",
+        "dpgan"
+      ],
+      "pca_explained_variance_ratio": [
+        0.09940146727813975,
+        0.08986095350630392
+      ],
+      "pca_limits": [
+        [
+          -7.098096049325453,
+          11.819278226890859
+        ],
+        [
+          -5.5391803988858115,
+          13.3781938773305
+        ]
+      ],
+      "umap_limits": [
+        [
+          6.151931743621827,
+          12.297096271514892
+        ],
+        [
+          -7.315817852020263,
+          -1.1706533241271972
+        ]
+      ]
+    }
+  }
+}
